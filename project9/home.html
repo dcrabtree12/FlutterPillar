@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	 <!-- Dayla Crabtree 12-09-15: I added javascript and jquery to the homepage and products page
+	      There is an alert box for the products page when someone clicks order products today.  
+		  Also, when you over over the faded text on the homepage, other text appears. 
+	 -->
+	 <meta charset="utf-8">
+	 <meta name="Flutter Pillar: Home" content="">
+	 <meta name="keywords" content="flutter, pillar, visit, exhibits, rare, insects, main, attraction, butterfly, visiting, hours, bug, 
+								    products, sign up">
+	 <meta name="description" content=" Flutter Pillars home page consists of a short description about their website.  They talk about
+										where you would information about the locations there are for the exhibits.  Flutter Pillar lets
+										users know that their main exhibit consists of butterflies and that they can sign up for discounts
+										and more.">
+	 <meta name="author" content="Dayla Crabtree">
+	 <title>Flutter Pillar</title>
+	 <link rel="stylesheet" href="./CSS/style.css">
+	 <script type="text/javascript">
+		function mOver(obj) {
+			obj.innerHTML = "Dayla Crabtree, learn more by emailing FlutterPillar"
+		}
+
+		function mOut(obj) {
+			obj.innerHTML = "Who is the creator of FlutterPillar? Hover over this to see."
+		}
+	 </script>
+    </head>
+<body>
+
+    <div id="page-wrap">
+	
+	<div id="header">
+		 <img class="textwrap heading" src="./images/heading.gif" alt="The title of the website with part of a butterflies wing.">
+		 <!-- This image was created by me. -->
+		 <h1 class="fade">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Homepage</h1>
+	</div>
+	
+	<nav id="nav">
+	    <div class="center">
+	        <b><a class="rcorners glowing-border" href="home.html">Home</a> 
+	           <a class="rcorners glowing-border" href="admissions.html">Admissions</a>
+	           <a class="rcorners glowing-border" href="products.html">Products</a>
+			   <a class="rcorners glowing-border" href="locations.html">Locations</a>
+			   <a class="rcorners glowing-border" href="contact.html">Contact Us</a>
+			   <a class="rcorners glowing-border" href="form.html">Form</a>
+	        </b>
+        </div>
+	</nav>
+	
+<div id="content">
+
+    <a href="home.html">
+     <img class="logo fade" src="./images/flutterlogo.gif" alt="The circle has a pillar and butterfly inside the logo with a company name.">
+	 <!--This was created in photo-shop and uses some images from the internet-->
+	</a>
+		
+		  <p>Welcome to Flutter Pillar where we provide you with all the information needed to visit our wonderful 
+		     exhibits.  There are many <a class="inline" href="http://www.missouribotanicalgarden.org/visit/family-of-attractions/butterfly-house.aspx">
+			 places</a> we will be hosting our exhibits.  We have all kinds of rare insects, 
+			 and a <a class="inline" href="locations.html">main attraction</a> for our butterfly lovers.You will find we have an
+			 <a class="inline" href="admissions.html">admissions</a> page for tickets and the latest upcoming events.  We hope you 
+			 find everything you need from visiting hours to finding wonderful bug products.</p>
+			   
+		   <img class="textwrap fade" src="./images/caterpillar.jpg" alt="A caterpillar looking up.">
+		   <!-- The caterpillar image was taken by me. --> 
+  
+		   <img class="textwrap fade" src="./images/wollyworm.jpg" alt="A wollyworm on top of gravel and leaves." style="margin-left: 50px;">
+		   <!-- The wolly worm was also taken from me. --><br><br><br><br><br><br><br>
+		   <a class="inline" href="https://www.butterflies.org/support">Sign up</a> today to earn discounts for tickets!
+		   <br><br><br>
+		   <div class="background">
+	     <div class="transbox">
+		   <div onmouseover="mOver(this)" onmouseout="mOut(this)">
+			Who is the creator of FlutterPillar?  Hover over this to see.
+		   </div>
+		   </div>
+		   </div>
+	
+		   <footer>Please email us at <a href="mailto:dcrabtree12@student.cscc.edu">Flutter Pillar</a> 
+	        if you have any questions. Go to our <a href="sitemap.html">sitemap</a> if you are lost. Copyright@FlutterPillar</footer>
+			
+     </div>
+	</div>
+</body>
+</html>

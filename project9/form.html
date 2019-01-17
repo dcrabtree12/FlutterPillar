@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	 <!-- Dayla Crabtree 10-03-15 -->
+	 <meta charset="utf-8">
+	 <meta name="Flutter Pillar: Form" content="">
+	 <meta name="keywords" content="ticket, purchase, flutter, pillar, reserve, family, bundle, customer, information, daily, emails">
+	 <meta name="description" content=" Flutter Pillars form page shows the steps to ticket.  You may choose which exhibit 
+									    the tickets are for.  The number of tickets for each age group are picked as well.
+										Customers are asked billing information and more.  Then they just click submit to order
+										online.">
+	 <meta name="author" content="Dayla Crabtree">
+	 <title>Flutter Pillar</title>
+	 <link rel="stylesheet" href="./CSS/style.css">
+    </head>
+<body>
+	 	
+    <div id="page-wrap">
+	<div id="header">
+		<img class="textwrap heading3" src="./images/heading.gif" alt="The title of the website with part of a butterflies wing.">
+		<!-- This image was created by me. -->
+		<h1 class="fade"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Form</h1>
+	</div>
+	<nav id="nav">
+	    <div class="center">
+	        <b><a class="rcorners glowing-border" href="home.html">Home</a> 
+	           <a class="rcorners glowing-border" href="admissions.html">Admissions</a>
+	           <a class="rcorners glowing-border" href="products.html">Products</a>
+			   <a class="rcorners glowing-border" href="locations.html">Locations</a>
+			   <a class="rcorners glowing-border" href="contact.html">Contact Us</a>
+			   <a class="rcorners glowing-border" href="form.html">Form</a>
+	        </b>
+        </div>
+	 </nav>
+	 
+	 <div id="content2">
+	
+		<a href="home.html">
+			<img class="logo fade" src="./images/flutterlogo.gif" alt="The circle has a pillar and butterfly inside the logo 
+			with a company name.">
+			<!--This was created in photo-shop and uses some images from the internet-->
+		</a>
+		 
+		 <form enctype="text/plain" method="post" action="mailto:dcrabtree12@student.cscc.edu">
+		    <h2>Ticket Purchase</h2>
+			   <fieldset>
+					<legend>Ticket Information:</legend>
+						<label>Exhibit: <select class="glowing-border" size="1" name="ticket" id="ticket" autofocus>
+							<option>Flutter Pillar</option>
+				            <option>Insect Life</option>
+				            <option>Dragonfly Exhibit (reserve early)</option>
+			            </select></label><br>
+			  
+						<label>Adults: <input class="glowing-border" type="number" name="adults" min="1" max="100"></label>
+			  
+						<label>Children: <input class="glowing-border" type="number" name="children" min="1" max="100"></label>
+			  
+						<label>Students: <input class="glowing-border" type="number" name="students" min="1" max="100"></label>
+			  
+						<label>Senior Citizens: <input class="glowing-border" type="number" name="senior" min="1" max="100">
+						<br><br></label>
+						
+						<label>Do you have the family bundle?</label><br><br>
+			
+						<input type="radio" name="No" value="no" checked>No
+						<input type="radio" name="Yes" value="yes" > Yes
+						<input type="radio" name="Get" value="get" >Free sign up <br><br>
+						
+						<label>Would you like to receive daily emails for Flutter Pillar discounts?</label><br><br>
+						<input type="checkbox" name="discountNo" value="discountNo"> No
+						<input type="checkbox" name="discountYes" value="discountYes"> Yes
+						<input type="checkbox" name="discountAlready" value="discountAlready"> Already receive emails
+						<input type="checkbox" name="discountEmail" value="discountEmail">Already have an account
+				</fieldset>
+				
+				<fieldset>
+					<legend>Customer Information:</legend>
+						<label for="fname">Name: </label><input class="glowing-border" type="text" name="fname" id="fname"
+						required="required" placeholder=" first">
+			   
+						<input class="glowing-border" type="text" name="lname" id="lname"
+						required="required" placeholder=" last">
+			   
+						<label for="number">Phone Number: <input class="glowing-border" type="text" name="number" id="number"
+						maxlength="12" size="12" required="required" placeholder=" 740-930-2992"><br></label>
+			   
+						<label for="email">Email: <input class="glowing-border" type="email" name="email" id="email"
+						placeholder=" required" required="required"><br></label>
+			
+			
+				</fieldset>
+				
+				<fieldset>
+					<legend>Billing Address:</legend>
+						<label>Street: <input class="glowing-border" type="text" name="street" id="street"
+						 size="54" placeholder=" required" required="required"></label><br><br>
+						
+						<label>State: <input class="glowing-border" type="text" name="state" id="state" maxlength="2"
+						size="5" required="required" placeholder=" FL"></label> 
+						
+						<label>Zip: <input class="glowing-border" type="text" name="zip" id="zip" maxlength="5"
+						size="5" required="required"></label>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Payment: </legend>
+						<label>Credit Card: <select class="glowing-border" size="1" name="credit" id="credit">
+							<option>Visa</option>
+				            <option>Master Card</option>
+				            <option>American Express</option>
+							<option>Discover</option>
+							<option>Amex</option>
+							<option>Diners</option>
+							<option>JCB</option>
+			            </select></label>
+						
+						<label>Card Number: <input class="glowing-border" type="text" name="card" id="card"
+						maxlength="16" size="16" required="required"></label>
+			
+						<label>Expiration Date: <input class="glowing-border" type="text" name="date" id="date"
+						maxlength="8" size="5" required="required" placeholder=" 00-00-00"></label><br>
+			
+						<label>Security Code: <input class="glowing-border" type="text" name="code" id="code"
+						maxlength="3" size="3" required="required"></label><br>
+				</fieldset><br>
+						
+				<input class="glowing-border" type="submit" value="Order Tickets">
+		  </form>
+	 
+	<footer>Please email us at <a href="mailto:dcrabtree12@student.cscc.edu">Flutter Pillar</a> 
+	        if you have any questions. Go to our <a href="sitemap.html">sitemap</a> if you are lost. Copyright@FlutterPillar</footer>
+	 </div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>http://www.flutterpillar.com/</loc>
+
+      <lastmod>2015-11-30</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.1</priority>
+	  
+		<loc>http://www.missouribotanicalgarden.org/visit/family-of-attractions/butterfly-house.aspx</loc>
+
+        <lastmod>2015-11-30</lastmod>
+
+        <changefreq>monthly</changefreq>
+
+        <priority>0.1</priority>
+		
+			<loc>locations.html</loc>
+
+			<lastmod>2015-11-30</lastmod>
+
+			<changefreq>monthly</changefreq>
+
+			<priority>0.1</priority>
+		
+				<loc>admissions.html</loc>
+
+				<lastmod>2015-11-30</lastmod>
+
+				<changefreq>monthly</changefreq>
+
+				<priority>0.1</priority>
+
+						<loc>https://www.butterflies.org/support</loc>
+
+						<lastmod>2015-11-30</lastmod>
+
+						<changefreq>monthly</changefreq>
+
+						<priority>0.1</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>http://www.admissions/flutterpillar.com/</loc>
+
+      <lastmod>2015-11-30</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.1</priority>
+	  
+		<loc>https://www.cabq.gov/culturalservices/biopark/events/dragonfly-festival</loc>
+
+		<lastmod>2015-11-30</lastmod>
+
+		<changefreq>monthly</changefreq>
+
+		<priority>0.1</priority>
+		
+			<loc>http://www.butterfly-houses.com/</loc>
+
+			<lastmod>2015-11-30</lastmod>
+
+			<changefreq>monthly</changefreq>
+
+			<priority>0.1</priority>
+			
+				<loc>form.html</loc>
+
+				<lastmod>2015-11-30</lastmod>
+
+				<changefreq>monthly</changefreq>
+
+				<priority>0.1</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>http://www.products/flutterpillar.com/</loc>
+
+      <lastmod>2015-11-30</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.1</priority>
+	  
+		<loc>http://www.learn2grow.com/problemsolvers/insectsanimals/insectsbeneficial/LadybugIdentification.aspx</loc>
+
+		<lastmod>2015-11-30</lastmod>
+
+		<changefreq>monthly</changefreq>
+
+		<priority>0.1</priority>
+		
+			<loc>http://www.hometrainingtools.com/life-science-biology/insects/insect-books-kits</loc>
+
+			<lastmod>2015-11-30</lastmod>
+
+			<changefreq>monthly</changefreq>
+
+			<priority>0.1</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>http://www.locations/flutterpillar.com/</loc>
+
+      <lastmod>2015-11-30</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.1</priority>
+	  
+		<loc>form.html</loc>
+
+		<lastmod>2015-11-30</lastmod>
+
+		<changefreq>monthly</changefreq>
+
+		<priority>0.1</priority>
+		
+			<loc>form.html</loc>
+
+			<lastmod>2015-11-30</lastmod>
+
+			<changefreq>monthly</changefreq>
+
+			<priority>0.1</priority>
+			
+				<loc>http://www.sunstreaktours.com/</loc>
+
+				<lastmod>2015-11-30</lastmod>
+
+				<changefreq>monthly</changefreq>
+
+				<priority>0.1</priority>
+				
+					<loc>admissions.html</loc>
+
+					<lastmod>2015-11-30</lastmod>
+
+					<changefreq>monthly</changefreq>
+
+					<priority>0.1</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>http://www.contacts/flutterpillar.com/</loc>
+
+      <lastmod>2015-11-30</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.1</priority>
+	  
+		<loc>http://www.ansp.org/get-involved/programs/festivals/bug-fest/</loc>
+
+		<lastmod>2015-11-30</lastmod>
+
+		<changefreq>monthly</changefreq>
+
+		<priority>0.1</priority>
+
+   </url>
+   
+   <url>
+
+      <loc>http://www.form/flutterpillar.com/</loc>
+
+      <lastmod>2015-11-30</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>0.1</priority>
+
+   </url>
+   
+   
+
+</urlset> 
